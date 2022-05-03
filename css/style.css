@@ -1,0 +1,149 @@
+:root {
+    --color-primario: #030113;
+    --color-secundario: #928763;
+    --color-terciario: #FEB95F;
+    --color-cuaternario: #F71735;
+    --color-quintario: #C2095;
+    --fuente-primaria: "Ubuntu";
+    --fuente-secundaria: sans-serif;
+    --fuente-titular-uno: "Azeret Mono", monospace;
+  }
+  .color-secundario {
+    background-color: var(--color-secundario);
+  }
+  .color-terciario {
+    background-color: var(--color-terciario);
+  }
+  
+  .color-texto-secundario {
+    color: var(--color-secundario);
+  }
+  .color-texto-alternativo-cuatro {
+    color: var(--color-alternativo-cuatro);
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-color: var(--color-primario);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  body::-webkit-scrollbar{
+    width: 7px;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background:var(--color-alternativo-uno);
+  }
+  
+  .altura-total {
+    height: 100%;
+  }
+  
+  .ancho-setenta {
+    width: 70%;
+  }
+  
+  .ancho-total {
+    width: 100%;
+  }
+  
+  .columna {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fila {
+    display: flex;
+  }
+  
+  .alineacion {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .final {
+    justify-content: flex-end;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* BUSCAR DONDE SE USA EN LOS OTROS HTML */
+  
+  .centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input::placeholder {
+    color: var(--color-quintario);
+  }
+  button {
+    background-color: var(--color-secundario);
+    transition: background-color 0.5s;
+  }
+  
+  button:hover {
+    background-color: var(--color-terciario);
+    cursor: pointer;
+  }
+  
+  .imagen-circular {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* TEXT0 */
+  .tipografia {
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .color-texto {
+    color: var(--color-secundario);
+  }
+  /* FIN TEXTO */
+  
+  /* INPUTS */
+  .controls {
+    width: 85%;
+    background: var(--color-terciario);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 16px 0;
+    border: 1px;
+    font-family: var(--fuente-primaria);
+    font-size: 18px;
+  }
+  
+  /* CAMBIAR EL NOMBRE DE .CONTROLS POR .INPUTS */
+  /* FIN INPUTS */
+  .separador {
+    padding: 1.5% 0;
+  }
+  .separador-externo {
+    margin: 1%;
+  }
+  .separador-horizontal {
+    margin: 2%;
+  }
+  
+  .ancho-elemento-centrado {
+    width: 70%;
+  }

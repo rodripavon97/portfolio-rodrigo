@@ -1,0 +1,54 @@
+nav {
+    background-color: var(--color-primario);
+    padding: 0.2%;
+  }
+  
+  .item__enlace {
+    color: --var(--color-secundario);
+    text-decoration: none;
+  }
+  
+  .brand,
+  .segunda-brand {
+    font-size: 1.3rem;
+    padding: 7.5px 10px 7.5px 0;
+    font-family: var(--fuente-secundaria);
+    margin-left: 3%;
+  }
+  
+  .item {
+    padding: 1%;
+    font-family: var(--fuente-secundaria);
+    font-size: 1.3rem;
+  }
+  
+  .info {
+    padding: 1%;
+    font-family: var(--fuente-secundaria);
+    font-size: 1.3rem;
+  }
+  
+  .toggle {
+    margin-right: 3%;
+    font-size: 25px;
+  }
+  
+  .item a:hover {
+    color: var(--color-secundario);
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand,
+  .item,
+  .toggle,
+  .info,
+  .segunda-brand {
+    list-style-type: none;
+  }
+  
